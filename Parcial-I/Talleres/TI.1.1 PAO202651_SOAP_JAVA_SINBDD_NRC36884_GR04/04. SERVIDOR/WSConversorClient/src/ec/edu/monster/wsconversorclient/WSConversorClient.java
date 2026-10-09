@@ -4,6 +4,8 @@
  */
 package ec.edu.monster.wsconversorclient;
 
+import ec.edu.monster.wsconversorclient.view.LongitudView;
+
 /**
  *
  * @author MeatPuppets
@@ -14,7 +16,7 @@ public class WSConversorClient {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        LongitudView.main(args);
     }
     
 }
